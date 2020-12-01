@@ -56,12 +56,13 @@ Also highly recommend using the following command to take advantage of optimized
  ./helios:
  * -mode=quick vs -mode=full
 	* use full mode after you setup elastic and make sure the inserts work. quick is light weight and fast but the JSON API exposed by -mode=full is very useful. 
- * -client=local vs infura
+ * -client=local vs -client=infura
 	* see above
  * -flush=indexName
 	* `./helios -flush=transactions` and `./helios -flush=blocks` would erase the respective indexes and the documents within. This overrides other flags, be careful!
 	
 ## TODO:
+ * Source tx.Time() directly from the client by modifying the API (more accurate than doing it on the fly)
  * Maker and dydx use the same oracles (dydx has high incentives for perp futures liquidators too) so adding support to them should be next. Along with all other relevant 
  * Integrate everything into a single client build (alongside geth)
  * Multi-trade arbitrage opportunities and taking advantage of ETH atomicity + flash loan liquidity. 
