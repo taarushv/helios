@@ -1,4 +1,7 @@
 # Helios
+
+**Note**: working on v0.2, check back soon!
+
 Helios is a tool built on-top of [go-ethereum](https://github.com/ethereum/go-ethereum) and the [ELK stack](https://www.elastic.co/what-is/elk-stack) to query and monitor the mempool. 
 
 The goal of this project is to create a unified JSON API to classify various trades, transfers, loans, liquidations, etc. and seamlessly interact with the pool (before the transactions are mined). Hoping to extend this to include local EVM execution + atomic on-chain arbitrage + dynamic gas adjustment to capture said value. 
