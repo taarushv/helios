@@ -38,7 +38,7 @@ Example: Query to list all chainlink oracle update txs in the mempool (along wit
 
 Helios also supports infura so the fastest way to get up and running would be generating a infura API key, creating a .env file (with INFURA_WS_URL="wss://mainnet.infura.io/ws/v3/....") and doing the following in the root folder: 
 	
-`go build &&./helios -client=infura -mode=quick`
+`go build && ./helios -client=infura -mode=quick`
 
 "quick" mode does not require/initiate a elastic search client (no inserts, just the console preview)
 
