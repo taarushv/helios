@@ -45,6 +45,8 @@ Helios also supports infura so the fastest way to get up and running would be ge
 
 "quick" mode does not require/initiate a elastic search client (no inserts, just the console preview)
 
+[More instructions on using infura](https://github.com/taarushv/helios/issues/2)
+
 ## Complete Guide
 Note: Publishing a docker image to make this seamless and easy soon!
 
