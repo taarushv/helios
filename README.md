@@ -1,6 +1,4 @@
-# Helios
-
-**Note**: working on v0.2, check back soon!
+# Helios V2
 
 Helios is a tool built on-top of [go-ethereum](https://github.com/ethereum/go-ethereum) and the [ELK stack](https://www.elastic.co/what-is/elk-stack) to query and monitor the mempool. 
 
