@@ -1,0 +1,10 @@
+helios:
+  nodeUrl: 'ws://xx.xx.xx:8547'
+postgres:
+  postgres_host: ''
+  postgres_user: ''
+  postgres_password: ''
+redis:
+  redis_host: ''
+  redis_user: ''
+  redis_password: ''
